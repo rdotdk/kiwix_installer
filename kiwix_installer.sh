@@ -18,7 +18,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # Configurations
-kiwix_server_tar="kiwix-linux-x86_64.tar.bz2"
+kiwix_server_tar="kiwix-linux-$(uname -m).tar.bz2"
 zim_zip="wikipedia_ta_all.zim" # Tamil
 port="8080"
 PROGNAME=$(basename $0)
